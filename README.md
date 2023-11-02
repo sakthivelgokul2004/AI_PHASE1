@@ -23,10 +23,11 @@ The repository contains the following files and directories:
 7.model_state.pt: This file contains the pre-trained state of the machine learning model.
 
 ## Prerequisites
-Before you can run the Flask application, you need to ensure that you have the required Python packages installed. You can use the following command to install them:
-```bash pip install flask transformers pandas torch ```
-This command will install the necessary packages: Flask for web application development, transformers for working with transformer-based models, pandas for data manipulation, and torch for PyTorch, which is often used for machine learning tasks.
-Running the Application
+Before you can run the Flask application, you need to ensure that you have the required Python packages installed. 
+### You can use the following command to install them:
+     pip install flask transformers pandas torch
+1.This command will install the necessary packages: Flask for web application development, transformers for working with transformer-based models, pandas for data manipulation, and torch for PyTorch, which is often used for machine learning tasks.
+2.Running the Application
 To run the Flask application, follow these steps:
 
 Navigate to the root directory of the application in your terminal.
@@ -34,10 +35,17 @@ Navigate to the root directory of the application in your terminal.
 Make sure you have the required packages installed, as mentioned in the "Prerequisites" section.
 
 ### Run the application by executing the following command:
-  ``` python Application.py ```
+       python Application.py
+### /or:
+       python3 Application.py
   
-### 1.After running the command, you should see output indicating that the Flask application is running.
-### 2.It will typically provide a URL where you can access the application, often something like http://127.0.0.1:5000/.
+1.After running the command, you should see output indicating that the Flask application is running.
+
+2.It will typically provide a URL where you can access the application, often something like http://127.0.0.1:5000/.
+
+3.train the model we need cuda for training the model.
+
+4.we can 
 
 Open a web browser and navigate to the provided URL to interact with the application.
 
