@@ -2,13 +2,17 @@
 
 ### DATA SOURCE : 
 The provided dataset consists of multiple short conversations between two participants, primarily focusing on casual and friendly exchanges. The conversations cover topics like greetings, well-being, attending school at PCC (a specific institution), and some small talk about the weather. Each conversation is structured as a back-and-forth dialogue between the participants, featuring natural language and informal communication
+
 ### Dataset Link :( https://www.kaggle.com/datasets/grafstor/simple-dialogs-for-chatbot)
+
 In dataset we have provided is an example of a conversational dataset. Conversational datasets are typically used to train chatbot models. The dataset contains a dialogue between two people, where each person takes a turn speaking. The dataset also includes the context of the conversation, which is important for training chatbot models to generate natural and informative responses.
 
 
 
 ## Prerequisites
 Before you can run the Flask application, you need to ensure that you have the required Python packages installed. 
+
+### we need python version 3 then we following commands
 ### You can use the following command to install them:
      pip install flask transformers pandas torch
 1.This command will install the necessary packages: Flask for web application development, transformers for working with transformer-based models, pandas for data manipulation, and torch for PyTorch, which is often used for machine learning tasks.
@@ -34,7 +38,7 @@ Make sure you have the required packages installed, as mentioned in the "Prerequ
 
 Open a web browser and navigate to the provided URL to interact with the application.
 
-The repository contains the following files and directories:
+### The repository contains the following files and directories:
 
 1.static/: This directory contains static assets such as CSS files, images, and JavaScript files that can be used in the web application.
 
